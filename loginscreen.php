@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="../backend/style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
@@ -13,10 +13,10 @@
     include("header.php");
     ?>
 </header>
-<h1 id="Überschrift"> Login Form</h1>
-<h2 id="Registrierung"> Please login here</h2>
+<h1 id="Überschrift"> Login Formular</h1>
+<h2 id="Registrierung"> Bitte hier Einloggen</h2>
 <br>
-<form method="post" action="../backend/login.php">
+<form method="post" action="/login.php">
     <div class="col-md-2 offset-md-5">
         <div class="form-group">
             <label for="userName">Username</label>
@@ -28,7 +28,7 @@
         </div>
         <br>
         <input type="submit" class="btn btn-primary" value="Submit">
-        <br><br><a href="loginscreen.php">New to this page? Click here</a>
+        <br><br><a href="registerscreen.php">Neu hier? Hier klicken</a>
     </div>
 </form>
 <footer><?php
