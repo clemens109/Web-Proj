@@ -12,10 +12,10 @@
 <nav class="navbar navbar-expand-sm bg-light fixed-bottom justify-content-center">
     <ul class="navbar-nav">
         <li class="nav-item">
-            <a class="nav-link" href="./impress.php">Impress</a>
+            <a class="nav-link" href="./impress.php">Impressum</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./help.php">Help</a>
+            <a class="nav-link" href="./help.php">Hilfe</a>
         </li>
     </ul>
 </body>
